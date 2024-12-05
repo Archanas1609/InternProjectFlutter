@@ -1,0 +1,24 @@
+name: deals_dray
+description: A Flutter app implementing splash screen, login, OTP verification, and home functionality.
+publish_to: "none" # Prevents accidental publishing to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2 # For state management
+  http: ^1.2.2 # For API calls
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pic1.jpeg
+    - assets/images/logo.png
